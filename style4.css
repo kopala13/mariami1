@@ -1,0 +1,183 @@
+body{
+    font-family: sans-serif;
+    background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(241, 145, 143, 0.978) 76%);
+}
+a{
+    font-size: 20px;
+    margin: 20px;
+    color: royalblue;
+}
+.selector{
+    color: darkorange;
+    background-color: lightblue;
+}
+a :hover{
+    background-color: lightblue;
+    color: darkorange;
+}
+h1{
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+.white{
+    font-size: 20px;
+    padding-left: 5px;
+    border-left: 10px double violet;
+}
+.stay-answer {
+    margin: 30px;
+}
+
+.tele{
+    color: brown;
+}
+.ocean-item::before{
+content:url("/uploads/2021/03/question_0_1614951460.svg") ;
+width: 10px;
+height: 20px;
+display: inline-block;
+}
+
+header {
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #36bbce;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    display: block;
+    background-image: linear-gradient(lightblue,white,gold);
+    
+}
+
+nav {
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    padding: 25px 100px 25px 95px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-link {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+h1:hover{
+    color: gold;
+    transition: 3s color lineal;
+}
+.purple{
+    border: 3px solid burlywood;
+}
+h2 {
+    color: green;
+    margin-left: 100px;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.photos a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px dotted black;
+    font-size: 20px;
+}
+
+.photos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 700px;
+    margin: 0 30px;
+    background-color: lightblue;
+}
+
+.doll {
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    border: 5px double orange;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: bisque;
+}
+
+.doll::before {
+    width: 30px;
+    height: 30px;
+    display: block;
+    opacity: 0.5;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: darkolivegreen;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+.hause img {
+    width: 250px;
+    height: 230px;
+    margin-left: 30px;
+}
+
+
+footer {
+    background-color: #8fddf2;
+    padding: 10px;
+}
+
+footer p {
+    background-color: white;
+    color: black;
+    padding: 5px;
+}
+body{
+    text-align: center;
+  }
+  nav a {
+    text-decoration: none;
+    font-size: 30px;
+    color: navy;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  nav a:hover{
+    box-shadow: 10px 5px 5px 5px;
+    transition:1s;
+    font-size:25px;
+  }
+  img:hover{
+    transition:2s;
+    transform: scale(1.2);
+  }
+  img:hover{
+    transition:2s;
+    transform: scale(1.2);
+  }
+  .photos{
+    margin-left:450px;
+  }
+  p:hover{
+    transition:2s;
+    transform: scale(1.1);
+    box-shadow:10px 10px 10px 10px;
+  }
+  h1:hover{
+    color: rgba(255, 182, 193, 0.909);
+    transition: 2s ;
+    font-size:48px;
+  }
